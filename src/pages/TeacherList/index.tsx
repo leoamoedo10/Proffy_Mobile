@@ -57,6 +57,7 @@ function TeacherList() {
     setIsFiltersVisible(false);
 		setTeachers(response.data);
   }
+  
 
   return (
     <View style={styles.container}>
